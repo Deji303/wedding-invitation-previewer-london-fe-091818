@@ -1,0 +1,137 @@
+html {
+  background-image: url('https://images.unsplash.com/photo-1469371670807-013ccf25f16a?ixlib=rb-0.3.5&s=10bf87e15c19a025b7b69f3147983d14&auto=format&fit=crop&w=500&q=60'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+#heading {
+  font-family: Georgia; 
+  font-weight: 800; 
+  color: #2d2d2d ; 
+  
+}
+
+
+
+form {
+ float: left; 
+ position:fixed;
+ left:300px;
+ color:#2d2d2d;
+ font-weight: 800; 
+}
+
+button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    width: 29%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    /*background-image: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/webpage-background-6.jpg');*/
+    color: #333333; 
+    background-color: pink; 
+    font-size: 12px;
+    font-weight: 800px 
+    
+}
+
+
+ #formal:hover {
+  background-image:  url('https://thumbs.dreamstime.com/b/wedding-invitation-background-16199385.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-weight: bold;
+  color: white; 
+}
+
+#spring:hover {
+  background-image: url('https://media.istockphoto.com/vectors/template-business-card-for-wedding-invitation-vector-illustration-vector-id857059638'); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-weight: bold;
+  color: black;
+   
+}
+
+#artdeco:hover {
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/04/50/80/93585d300646ed7.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-weight: bold;
+  color: black; 
+}
+
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+section {
+  position: fixed; 
+  right:300px;
+  height:100%;
+  width: 30%; 
+  -webkit-transition-duration: 1s; 
+    transition-duration: 1s;
+  
+}
+
+.textformal {
+  position: relative; 
+  top:70px;
+  -webkit-transition-duration: 1s; 
+    transition-duration: 1s;
+  
+}
+
+.textspring {
+  position: relative; 
+  top:0;
+  -webkit-transition-duration: 1s; 
+    transition-duration: 1s;
+  
+}
+
+.textartdeco {
+  position: relative; 
+  top:150px;
+  font-size: 10px; 
+  -webkit-transition-duration: 1s; 
+    transition-duration: 1s;
+  
+}
+
+article h2,p {
+  display:inline-block;
+  
+}
+
+ .formal {
+  color: white; 
+  background: url("https://thumbs.dreamstime.com/b/wedding-invitation-background-16199385.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  
+}
+
+ .spring {
+  background: url("https://media.istockphoto.com/vectors/template-business-card-for-wedding-invitation-vector-illustration-vector-id857059638");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center; 
+  position: fixed; 
+  right:300px;
+  width: 40%; 
+}
+
+ .artdeco {
+  background:url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/50/80/93585d300646ed7.jpg"); 
+   background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
